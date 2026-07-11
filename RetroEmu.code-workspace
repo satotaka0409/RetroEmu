@@ -1,0 +1,97 @@
+{
+  "folders": [
+    {
+      "name": "mn1613",
+      "path": "./mn1613"
+    },
+    {
+      "name": "root",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.fontSize": 12,
+    "editor.inlayHints.enabled": "off",
+    "workbench.settings.useSplitJSON": true,
+    "git.ignoreLimitWarning": true,
+    "github.copilot.enable": {
+      "typescript": true,
+      "javascript": true,
+      "docker": true
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.inlineSuggest.enabled": true,
+    "js/ts.validate.enabled": true,
+    "js/ts.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+    "js/ts.updateImportsOnFileMove.enabled": "always",
+    "inlineChat.enableV2": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimTrailingWhitespaceInRegexAndStrings": false,
+    "intelephense.diagnostics.enable": true,
+    "intelephense.diagnostics.undefinedTypes": true,
+    "intelephense.diagnostics.undefinedFunctions": true,
+    "intelephense.diagnostics.undefinedConstants": true,
+    "intelephense.diagnostics.undefinedMethods": true,
+    "intelephense.diagnostics.undefinedProperties": true,
+    "intelephense.diagnostics.unusedSymbols": true,
+    "intelephense.diagnostics.deprecated": true,
+    "intelephense.diagnostics.typeErrors": true,
+    "intelephense.files.maxSize": 5000000,
+    "intelephense.files.associations": ["**/*.tsx"],
+    // プロジェクト全体のインデックスを効かせる
+    "intelephense.files.exclude": [
+      "**/.*/**",
+      "**/css/**",
+      "**/img/**",
+      "**/js/**",
+      "**/node_modules/**",
+      "**/storage/**",
+      "**/cache/**",
+      "**/tests/**"
+    ],
+    "intelephense.format.enable": true,
+    // 検索から除外するフォルダ
+    "search.exclude": {
+      "**/.*": true,
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/vendor": true,
+      "**/tests": true,
+      "**/public/js/libraries": true
+    },
+    "editor.formatOnSave": true,
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  },
+  "extensions": {
+    "recommendations": [
+      "MS-CEINTL.vscode-language-pack-ja",
+      "ms-vscode-remote.vscode-remote-extensionpack",
+      "ms-azuretools.vscode-docker",
+      "ms-azuretools.vscode-containers",
+      "esbenp.prettier-vscode",
+      "rodrigovallades.es7-react-js-snippets",
+      "donjayamanne.githistory",
+      "mhutchie.git-graph",
+      "bmewburn.vscode-intelephense-client",
+      "ms-vscode.js-debug",
+      "ms-vscode.vscode-js-profile-flame",
+      "ms-edgedevtools.vscode-edge-devtools",
+      "GitHub.copilot-chat",
+      "pranaygp.vscode-css-peek",
+      "gbodeen.partial-diff-2",
+      "mrmlnc.vscode-duplicate",
+      "msjsdiag.debugger-for-edge",
+      "xabikos.JavaScriptSnippets",
+      "shardulm94.trailing-spaces",
+      "Gydunhn.javascript-essentials",
+      "alefragnani.Bookmarks",
+    ]
+  }
+}
