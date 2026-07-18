@@ -16,3 +16,15 @@ services:
       - ./src:/usr/app/ReactEmu/src
       - ./tsconfig.json:/usr/app/ReactEmu/tsconfig.json
       - ./vite.config.ts:/usr/app/ReactEmu/vite.config.ts
+
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm run test
+    volumes:
+      - ./src:/usr/app/ReactEmu/src
+      - ./tsconfig.json:/usr/app/ReactEmu/tsconfig.json
+      - ./vite.config.ts:/usr/app/ReactEmu/vite.config.ts
+    profiles:
+      - test
