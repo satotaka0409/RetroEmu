@@ -1,8 +1,12 @@
 {
   "folders": [
     {
-      "name": "mn1613",
-      "path": "./mn1613"
+      "name": "mn1613_emu",
+      "path": "./mn1613_emu"
+    },
+    {
+      "name": "mn1613_asm",
+      "path": "./mn1613_asm"
     },
     {
       "name": "root",
@@ -79,18 +83,10 @@
       "rodrigovallades.es7-react-js-snippets",
       "donjayamanne.githistory",
       "mhutchie.git-graph",
-      "bmewburn.vscode-intelephense-client",
-      "ms-vscode.js-debug",
-      "ms-vscode.vscode-js-profile-flame",
       "ms-edgedevtools.vscode-edge-devtools",
       "GitHub.copilot-chat",
       "pranaygp.vscode-css-peek",
-      "gbodeen.partial-diff-2",
-      "mrmlnc.vscode-duplicate",
-      "msjsdiag.debugger-for-edge",
-      "xabikos.JavaScriptSnippets",
-      "shardulm94.trailing-spaces",
-      "Gydunhn.javascript-essentials",
+      "dbaeumer.vscode-eslint",
       "alefragnani.Bookmarks",
     ]
   }
